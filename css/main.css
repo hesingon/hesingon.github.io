@@ -927,3 +927,7 @@ header p {
 h1 {
   text-align: center;
 }
+
+footer p i {
+  color: red;
+}
