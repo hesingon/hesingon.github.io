@@ -700,7 +700,7 @@ Change widths as necessary
   /* 3 COLUMN GRID */
   .g1 {width:31.333%}
   .g2 {width:40.667%;}
-  .g3 {width:10.0%}
+  .g3 {width:30.0%}
 }
 
 @media only screen and (min-width: 1280px) { 
