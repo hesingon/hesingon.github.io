@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51684e10-6fdd-487b-9d7e-92e338efe399" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/images/c2.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2725">
-              <caret line="194" column="37" lean-forward="false" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+            <state relative-caret-position="335">
+              <caret line="399" column="38" lean-forward="true" selection-start-line="399" selection-start-column="38" selection-end-line="399" selection-end-column="38" />
               <folding>
-                <marker date="1535548963806" expanded="true" signature="1900:2152" ph="..." />
-                <marker date="1535548963806" expanded="true" signature="1993:2021" ph="..." />
+                <marker date="1535549429354" expanded="true" signature="1900:2152" ph="..." />
+                <marker date="1535549429354" expanded="true" signature="1993:2021" ph="..." />
               </folding>
             </state>
           </provider>
@@ -33,6 +34,7 @@
       <find>arduino</find>
       <find>Arduino</find>
       <find>Overview</find>
+      <find>lots</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,11 +160,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="194" column="37" lean-forward="false" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+        <state relative-caret-position="335">
+          <caret line="399" column="38" lean-forward="true" selection-start-line="399" selection-start-column="38" selection-end-line="399" selection-end-column="38" />
           <folding>
-            <marker date="1535548963806" expanded="true" signature="1900:2152" ph="..." />
-            <marker date="1535548963806" expanded="true" signature="1993:2021" ph="..." />
+            <marker date="1535549429354" expanded="true" signature="1900:2152" ph="..." />
+            <marker date="1535549429354" expanded="true" signature="1993:2021" ph="..." />
           </folding>
         </state>
       </provider>
