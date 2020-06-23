@@ -49,7 +49,7 @@
                     He Xing Darius
                 </h2>
                 <h4>
-                    Computer Engineering, Project Director
+                    Full Stack Developer
                 </h4>
             </div>
         </header>
@@ -86,15 +86,23 @@
                                     He Xing Darius
                                 </h3>
                                 <h4>
-                                    Computer Engineering
+                                    Full Stack Developer
                                 </h4>
                                 <p>
-                                    I am a self-motivated student from National University of Singapore. From
-                                    "marvellous", "awesome", "Woohoo~" to "bold", "crazy" and "wtf?!", you can call me
+                                    I am a self-motivated full stack developer graduated from National University of Singapore.
+                                </p>
+                                <p>
+                                    From "awesome", "Woohoo~" to "bold", "crazy" and "wtf?!", you can call me
                                     anything but "shy". Hungry for insightful ideas, tripple-C (Constructive &
                                     Corrective Criticism) and invitations for a purposeful cause. The most driven when
-                                    there is a meaning in the things I do. Bring it on, give me a chance to be a
-                                    workaholic. <(^_^<)
+                                    there is a meaning in the things I do. <(^_^<)
+                                </p>
+                                <p>
+                                    I started my devlepment career since 2018 where I picked up react, redux and Flask
+                                    during my internship at <a href='https://healthy.io/' target='_blank'>Healthy.io</a>.
+                                    Later on I did various projects (school-based, work, freelancing, hackathons and 
+                                    my own pet project) along the way and picked up node.js, Django, ASP.NET, SQLs, 
+                                    MongoDB and so on. I just kept going because there's still a lot of fun features to explore. 
                                 </p>
                             </div>
                         </div>
@@ -127,6 +135,26 @@
                     <section class="clearfix">
                         <div class="g1">
                             <div class="image">
+                                <img src="images/presage1.jpg" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#presage" class="page-scroll btn">Patient Monitoring</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/seabulk.jpg" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#sb" class="page-scroll btn">Warehouse Logistics System</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
                                 <img src="images/ct2.png" alt="">
                                 <div class="image-overlay">
                                     <div class="image-link">
@@ -141,6 +169,16 @@
                                 <div class="image-overlay">
                                     <div class="image-link">
                                         <a href="#sia" class="page-scroll btn">SIA App Challenge</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/nodeflair.jpg" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#nodeflair" class="page-scroll btn">Registration Page</a>
                                     </div>
                                 </div>
                             </div>
@@ -199,10 +237,60 @@
 
                         <!--start of scrolling images banner-->
                         <div id="projects">
+                            <div class="project-item" id="presage">
+                                <header>
+                                    <h2>Patient Monitoring System</h2>
+                                    <h5>Conext Systems and Services</h5>
+                                    <p>
+                                        Often times in the hospital there are patients who's condition is so ill that they mobility
+                                        is greatly hindered, and they face a high fall risk, meaning that chance of them falling down 
+                                        by getting out of bed is high. To help prevent patient falling from happening, we rolled out a 
+                                        patient activitiy monitoring system. In each bed we place a raspberry pi attached with camera
+                                        to capture the activity of the patient, the camera feed will be passed to the Pi, which analyses
+                                        and detects movements if any. When bed-exit movement is detected, Pi will send a signal to backend,
+                                        which then will alert the nurses through a physical alarm and/or the frontend graphical user interface.
+                                    </p>
+
+                                    <p>
+                                        In this project, my role was to improve system performance, user experience and fault-tolerance
+                                        by adding new functionalities and refining codebase across the graphical UI and Python backend.
+                                    </p>
+                                </header>
+
+                                <div class="photos">
+                                    <img src="images/presage1.jpg"/>
+                                    <img src="images/presage2.jpg"/>
+                                </div>
+                            </div>
+
+                            <div class="project-item" id="sb">
+                                <header>
+                                    <h2>Warehouse Logistic Tracking System</h2>
+                                    <h5>Conext Systems and Services</h5>
+                                    <p>
+                                        We were building an end-to-end system that helps better track the inventory and logistics of a local
+                                        supplier business that manages acquisition of food and raw ingredients to restaurants and hotels. The client 
+                                        purchases a few thousands of different items from over 300 oversea suppliers, and their everyday inbound and outbound 
+                                        items required a smoother and easier way to keep track of. We built an end-to-end system capable of issuing and scanning barcodes,
+                                        such that each item can be pasted with a barcode sticker, which will be subsequently scanned to facilitate recording.
+                                    </p>
+                                    <p>
+                                        I took over the entire project, picked up ASP.NET(C# framework) to build scanner device's mobile frontend, server
+                                        endpoints, refined MSSQL server's database transactions. I also integrated the system with the peripheral devices such
+                                        as the barcode printer and Accpac system.
+                                    </p>
+                                </header>
+
+                                <div class="photos">
+                                    <img src="images/seabulk.jpg"/>
+                                    <img src="images/seabulk2.jpg"/>
+                                </div>
+                            </div>
+
                             <div class="project-item" id="ct">
                                 <header>
                                     <h2>CryptoTracer</h2>
-                                    <h5>Final Year Project (Ongoing)</h5>
+                                    <h5>Final Year Project</h5>
 
                                     <p>
                                         Not too long after Satoshi Nakamoto made public the first cryptocurrency
@@ -250,6 +338,27 @@
                                     </p>
                                 </header>
                                 <img src="images/sia.png"/>
+                            </div>
+
+                            <div class="project-item" id="nodeflair">
+                                <header>
+                                    <h2>Registration Page (React.js)</h2>
+                                    <h5>Freelance Project</h5>
+
+                                    <p>
+                                        I was approached by nodeflair's startup founder, a fellow university-mate of mine, to build an
+                                        interactive multi-stage registration page using react. I spent a couple of days during my year 4
+                                        mid-term period and managed to complete the task. 
+                                    </p>
+                                    <p>
+                                        To my honour, they are still using this same component as their registration page as of this date.
+                                        You can view the <a href='https://app.nodeflair.com/users/sign_up' target='_blank'>registration page here.</a>
+                                    </p>
+
+                                    <img src="images/nodeflair.jpg" alt="">
+
+                                </header>
+
                             </div>
 
                             <div class="project-item" id="hc">
@@ -441,7 +550,7 @@
                                 <div class="item-box clearfix">
                                     <i class="icon-envelope"></i>
                                     <div class="item-data">
-                                        <h3><a href="#">e0007888@u.nus.edu</a></h3>
+                                        <h3><a href="#">he.xing17@u.nus.edu</a></h3>
                                         <p>Email Address</p>
                                     </div>
                                 </div>
@@ -450,7 +559,7 @@
                                 <div class="item-box clearfix">
                                     <i class="icon-linkedin"></i>
                                     <div class="item-data">
-                                        <h3><a href="www.linkedin.com/in/he-xing-darius-13a4398b">He Xing Darius</a>
+                                        <h3><a href="https://www.linkedin.com/in/he-xing-darius-13a4398b" target='_blank'>He Xing Darius</a>
                                         </h3>
                                         <p>LinkedIn Profile</p>
                                     </div>
@@ -458,11 +567,11 @@
                             </div>
                             <div class="g1">
                                 <div class="item-box clearfix">
-                                    <i class="icon-facebook"></i>
+                                    <i class="icon-github"></i>
                                     <div class="item-data">
-                                        <h3><a href="https://www.facebook.com/hexane.gmf?ref=bookmarks">He Xing
+                                        <h3><a href="https://github.com/hesingon" target='_blank'>He Xing
                                             Darius</a></h3>
-                                        <p>Facebook</p>
+                                        <p>Github</p>
                                     </div>
                                 </div>
                             </div>
@@ -480,7 +589,7 @@
             </p> -->
 
             <p>
-                This portfolio page is made in August, 2017, thanks to the help of the open-source community and lots of love. <i class="icon-heart"></i><i class="icon-heart"></i><i class="icon-heart"></i>
+                This portfolio page is made in August 2017, (updated June 2020) thanks to the help of the open-source community and lots of love. <i class="icon-heart"></i><i class="icon-heart"></i><i class="icon-heart"></i>
             </p>
         </footer>
     </div><!-- #main -->
